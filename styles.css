@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+}
+
+img {
+  width: 150px;
+}
+
+.card {
+  background-color: #cbf3f0;
+  border-bottom: 5px solid #2ec4b6;
+  color: #2ec4b6;
+  display: flex;
+  font-family: Tahoma, sans-serif;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 5px 11px 16px -1px rgba(0,0,0,0.89);
+}
+
+div:hover {
+    background-color: #fdfcdc;
+}
+
+img:hover {
+    animation: backwards;
+    background-color: #fdfcdc;
+}
